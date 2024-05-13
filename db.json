@@ -1,0 +1,1923 @@
+{
+  "usuariosempleados": [
+    {
+      "id": 1,
+      "auth0Id": "iVBORw0KGgfsafafehrehregAAAK0AAACUCAMAAADWBFkUAAABEVBMVEX",
+      "username": "juancitoAdmin",
+      "empleado": {
+        "id": 1,
+        "rol": "Administrador",
+        "domicilio": {
+          "id": 5,
+          "calle": "Sarmiento",
+          "numero": 123,
+          "cp": 5507,
+          "localidad": {
+            "id": 1,
+            "nombre": "Lujan de Cuyo",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        },
+        "nombre": "Juancito",
+        "apellido": "Admincias",
+        "telefono": "2634666266",
+        "email": "juancitoadmin@gmail.com",
+        "fechaNacimiento": "1990-11-15",
+        "imagen": {
+          "id": 1,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+        },
+        "sucursal": null
+      }
+    },
+    {
+      "id": 2,
+      "auth0Id": "iVBORw0KGgfsafafehrehregAAAK0AAACUCAMPEPEPEPEOUAAABEVBMVEX",
+      "username": "juancitoCajero",
+      "empleado": {
+        "id": 2,
+        "rol": "Cajero",
+        "domicilio": {
+          "id": 6,
+          "calle": "Sarmiento",
+          "numero": 123,
+          "cp": 5507,
+          "localidad": {
+            "id": 1,
+            "nombre": "Lujan de Cuyo",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        },
+        "nombre": "Juancito",
+        "apellido": "Cajeres",
+        "telefono": "263443626",
+        "email": "juancitocajeres@gmail.com",
+        "fechaNacimiento": "1991-08-09",
+        "imagen": {
+          "id": 2,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+        },
+        "sucursal": null
+      }
+    },
+    {
+      "id": 3,
+      "auth0Id": "iVBORw0KGgfsafafehrehregAAAK0AAACUMGKSMKDGMLAKdEEFEX",
+      "username": "pepitoCocinero",
+      "empleado": {
+        "id": 3,
+        "rol": "Cocinero",
+        "domicilio": {
+          "id": 7,
+          "calle": "Sarmiento",
+          "numero": 123,
+          "cp": 5507,
+          "localidad": {
+            "id": 1,
+            "nombre": "Lujan de Cuyo",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        },
+        "nombre": "Pepito",
+        "apellido": "Cocinas",
+        "telefono": "2634666166",
+        "email": "pepitococinas@gmail.com",
+        "fechaNacimiento": "1992-06-12",
+        "imagen": {
+          "id": 3,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+        },
+        "sucursal": null
+      }
+    },
+    {
+      "id": 4,
+      "auth0Id": "iVBORw0KGgfsafafehrehregAAAK0AAAPAAAMAAADWBFkUAAABEVLEOPX",
+      "username": "elJorgeDeliverys",
+      "empleado": {
+        "id": 4,
+        "rol": "Delivery",
+        "domicilio": {
+          "id": 8,
+          "calle": "Sarmiento",
+          "numero": 123,
+          "cp": 5507,
+          "localidad": {
+            "id": 1,
+            "nombre": "Lujan de Cuyo",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        },
+        "nombre": "Jorge",
+        "apellido": "Deliveres",
+        "telefono": "2634636656",
+        "email": "jorgedeliveres@gmail.com",
+        "fechaNacimiento": "1993-04-11",
+        "imagen": {
+          "id": 4,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+        },
+        "sucursal": null
+      }
+    }
+  ],
+  "usuariosclientes": [
+    {
+      "id": 1,
+      "auth0Id": "iVBORw0KGgoAAAANSUhEUgAAAK0AAACUCAMAAADWBFkUAAABEVBMVEX",
+      "username": "pepe-honguito75",
+      "cliente": {
+        "id": 1,
+        "rol": "Cliente",
+        "nombre": "Alejandro",
+        "apellido": "Lencinas",
+        "telefono": "2634666666",
+        "email": "alex@gmail.com",
+        "fechaNacimiento": "1990-12-15",
+        "pedidos": [
+          {
+            "id": 1,
+            "horaEstimadaFinalizacion": "12:30:00",
+            "total": 200,
+            "totalCosto": 180,
+            "estado": "Entregado",
+            "tipoEnvio": "Delivery",
+            "formaPago": "MercadoPago",
+            "fechaPedido": "2024-04-18",
+            "domicilio": {
+              "id": 4,
+              "calle": "Sarmiento",
+              "numero": 123,
+              "cp": 5507,
+              "localidad": {
+                "id": 1,
+                "nombre": "Lujan de Cuyo",
+                "provincia": {
+                  "id": 1,
+                  "nombre": "Mendoza",
+                  "pais": {
+                    "id": 1,
+                    "nombre": "Argentina"
+                  }
+                }
+              }
+            },
+            "sucursal": {
+              "id": 2,
+              "nombre": "En chacras",
+              "horarioApertura": "17:00:00",
+              "horarioCierre": "23:00:00",
+              "casaMatriz": null,
+              "domicilio": {
+                "id": 2,
+                "calle": "Viamonte",
+                "numero": 500,
+                "cp": 5509,
+                "localidad": {
+                  "id": 1,
+                  "nombre": "Lujan de Cuyo",
+                  "provincia": {
+                    "id": 1,
+                    "nombre": "Mendoza",
+                    "pais": {
+                      "id": 1,
+                      "nombre": "Argentina"
+                    }
+                  }
+                }
+              },
+              "empresa": {
+                "id": 1,
+                "nombre": "Lo de Brown",
+                "razonSocial": "Venta de Alimentos",
+                "cuil": 30503167
+              }
+            },
+            "empleado": {
+              "id": 2,
+              "domicilio": {
+                "id": 6,
+                "calle": "Sarmiento",
+                "numero": 123,
+                "cp": 5507,
+                "localidad": {
+                  "id": 1,
+                  "nombre": "Lujan de Cuyo",
+                  "provincia": {
+                    "id": 1,
+                    "nombre": "Mendoza",
+                    "pais": {
+                      "id": 1,
+                      "nombre": "Argentina"
+                    }
+                  }
+                }
+              },
+              "nombre": "Juancito",
+              "apellido": "Cajeres",
+              "telefono": "263443626",
+              "email": "juancitocajeres@gmail.com",
+              "fechaNacimiento": "1991-08-09",
+              "sucursal": null
+            },
+            "detallePedidos": [
+              {
+                "id": 2,
+                "cantidad": 1,
+                "subTotal": 70,
+                "articulo": {
+                  "id": 1,
+                  "denominacion": "Coca cola",
+                  "precioVenta": 70,
+                  "precioCompra": 50,
+                  "stockActual": 5,
+                  "stockMaximo": 50,
+                  "esParaElaborar": false
+                }
+              },
+              {
+                "id": 1,
+                "cantidad": 1,
+                "subTotal": 130,
+                "articulo": {
+                  "id": 5,
+                  "denominacion": "Pizza Muzarella",
+                  "precioVenta": 130,
+                  "descripcion": "Una pizza clasica",
+                  "tiempoEstimadoMinutos": 15,
+                  "preparacion": "Esto se prepara asi",
+                  "stock": null,
+                  "precioCosto": null
+                }
+              }
+            ]
+          }
+        ],
+        "domicilios": [
+          {
+            "id": 3,
+            "calle": "San martin",
+            "numero": 412,
+            "cp": 5501,
+            "localidad": {
+              "id": 2,
+              "nombre": "Godoy Cruz",
+              "provincia": {
+                "id": 1,
+                "nombre": "Mendoza",
+                "pais": {
+                  "id": 1,
+                  "nombre": "Argentina"
+                }
+              }
+            }
+          },
+          {
+            "id": 4,
+            "calle": "Sarmiento",
+            "numero": 123,
+            "cp": 5507,
+            "localidad": {
+              "id": 1,
+              "nombre": "Lujan de Cuyo",
+              "provincia": {
+                "id": 1,
+                "nombre": "Mendoza",
+                "pais": {
+                  "id": 1,
+                  "nombre": "Argentina"
+                }
+              }
+            }
+          }
+        ],
+        "imagen": {
+          "id": 1,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+        }
+      }
+    }
+  ],
+  "unidadesmedida": [
+    {
+      "id": 1,
+      "denominacion": "Litros"
+    },
+    {
+      "id": 2,
+      "denominacion": "Gramos"
+    },
+    {
+      "id": 3,
+      "denominacion": "Cantidad"
+    },
+    {
+      "id": 4,
+      "denominacion": "Porciones"
+    }
+  ],
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "En godoy cruz",
+      "horarioApertura": "16:00:00",
+      "horarioCierre": "23:30:00",
+      "casaMatriz": null,
+      "domicilio": {
+        "id": 1,
+        "calle": "San Martin",
+        "numero": 789,
+        "cp": 5511,
+        "localidad": {
+          "id": 2,
+          "nombre": "Godoy Cruz",
+          "provincia": {
+            "id": 1,
+            "nombre": "Mendoza",
+            "pais": {
+              "id": 1,
+              "nombre": "Argentina"
+            }
+          }
+        }
+      },
+      "empresa": {
+        "id": 1,
+        "nombre": "Lo de Brown",
+        "razonSocial": "Venta de Alimentos",
+        "cuil": 30503167
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "En chacras",
+      "horarioApertura": "17:00:00",
+      "horarioCierre": "23:00:00",
+      "casaMatriz": null,
+      "domicilio": {
+        "id": 2,
+        "calle": "Viamonte",
+        "numero": 500,
+        "cp": 5509,
+        "localidad": {
+          "id": 1,
+          "nombre": "Lujan de Cuyo",
+          "provincia": {
+            "id": 1,
+            "nombre": "Mendoza",
+            "pais": {
+              "id": 1,
+              "nombre": "Argentina"
+            }
+          }
+        }
+      },
+      "empresa": {
+        "id": 1,
+        "nombre": "Lo de Brown",
+        "razonSocial": "Venta de Alimentos",
+        "cuil": 30503167
+      }
+    }
+  ],
+  "provincias": [
+    {
+      "id": 1,
+      "nombre": "Mendoza",
+      "pais": {
+        "id": 1,
+        "nombre": "Argentina"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Cordoba",
+      "pais": {
+        "id": 1,
+        "nombre": "Argentina"
+      }
+    }
+  ],
+  "promociones": [
+    {
+      "id": 1,
+      "denominacion": "Dia de los Enamorados",
+      "fechaDesde": "2024-02-13",
+      "fechaHasta": "2024-02-15",
+      "horaDesde": "00:00:00",
+      "horaHasta": "23:59:00",
+      "descripcionDescuento": "14 de febrero es el día de los enamorados",
+      "precioPromocional": 180,
+      "tipoPromocion": "Promocion",
+      "imagenes": [
+        {
+          "id": 1,
+          "url": "https://www.bbva.com/wp-content/uploads/2021/02/san-valentin-14-febrero-corazon-amor-bbva-recurso-1920x1280-min.jpg"
+        }
+      ],
+      "sucursales": {
+        "id": 2,
+        "horarioApertura": "17:00:00",
+        "horarioCierre": "23:00:00",
+        "casaMatriz": null,
+        "empresa": {
+          "id": 1,
+          "nombre": "Lo de Brown",
+          "razonSocial": "Venta de Alimentos",
+          "cuil": 30503167
+        }
+      },
+      "promocionDetalles": [
+        {
+          "id": 2,
+          "cantidad": 2,
+          "articulo": {
+            "id": 6,
+            "denominacion": "Pizza Napolitana",
+            "precioVenta": 150,
+            "descripcion": "Una pizza clasica con tomate",
+            "tiempoEstimadoMinutos": 15,
+            "preparacion": "Esto se prepara asi",
+            "stock": null,
+            "precioCosto": null
+          }
+        },
+        {
+          "id": 1,
+          "cantidad": 1,
+          "articulo": {
+            "id": 1,
+            "denominacion": "Coca cola",
+            "precioVenta": 70,
+            "precioCompra": 50,
+            "stockActual": 5,
+            "stockMaximo": 50,
+            "esParaElaborar": false
+          }
+        }
+      ]
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "horaEstimadaFinalizacion": "12:30:00",
+      "total": 200,
+      "totalCosto": 180,
+      "estado": "Entregado",
+      "tipoEnvio": "Delivery",
+      "formaPago": "MercadoPago",
+      "fechaPedido": "2024-04-18",
+      "domicilio": {
+        "id": 4,
+        "calle": "Sarmiento",
+        "numero": 123,
+        "cp": 5507,
+        "localidad": {
+          "id": 1,
+          "nombre": "Lujan de Cuyo",
+          "provincia": {
+            "id": 1,
+            "nombre": "Mendoza",
+            "pais": {
+              "id": 1,
+              "nombre": "Argentina"
+            }
+          }
+        }
+      },
+      "sucursal": {
+        "id": 2,
+        "nombre": "En chacras",
+        "horarioApertura": "17:00:00",
+        "horarioCierre": "23:00:00",
+        "casaMatriz": null,
+        "domicilio": {
+          "id": 2,
+          "calle": "Viamonte",
+          "numero": 500,
+          "cp": 5509,
+          "localidad": {
+            "id": 1,
+            "nombre": "Lujan de Cuyo",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        },
+        "empresa": {
+          "id": 1,
+          "nombre": "Lo de Brown",
+          "razonSocial": "Venta de Alimentos",
+          "cuil": 30503167
+        }
+      },
+      "cliente": {
+        "id": 1,
+        "rol": "Cliente",
+        "nombre": "Alejandro",
+        "apellido": "Lencinas",
+        "telefono": "2634666666",
+        "email": "alex@gmail.com",
+        "fechaNacimiento": "1990-12-15"
+      },
+      "empleado": {
+        "id": 2,
+        "domicilio": {
+          "id": 6,
+          "calle": "Sarmiento",
+          "numero": 123,
+          "cp": 5507,
+          "localidad": {
+            "id": 1,
+            "nombre": "Lujan de Cuyo",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        },
+        "nombre": "Juancito",
+        "apellido": "Cajeres",
+        "telefono": "263443626",
+        "email": "juancitocajeres@gmail.com",
+        "fechaNacimiento": "1991-08-09",
+        "sucursal": null
+      },
+      "detallePedidos": [
+        {
+          "id": 1,
+          "cantidad": 1,
+          "subTotal": 130,
+          "articulo": {
+            "id": 5,
+            "denominacion": "Pizza Muzarella",
+            "precioVenta": 130,
+            "descripcion": "Una pizza clasica",
+            "tiempoEstimadoMinutos": 15,
+            "preparacion": "Esto se prepara asi",
+            "stock": null,
+            "precioCosto": null
+          }
+        },
+        {
+          "id": 2,
+          "cantidad": 1,
+          "subTotal": 70,
+          "articulo": {
+            "id": 1,
+            "denominacion": "Coca cola",
+            "precioVenta": 70,
+            "precioCompra": 50,
+            "stockActual": 5,
+            "stockMaximo": 50,
+            "esParaElaborar": false
+          }
+        }
+      ]
+    }
+  ],
+  "paises": [
+    {
+      "id": 1,
+      "nombre": "Argentina"
+    }
+  ],
+  "manufacturados": [
+    {
+      "id": 5,
+      "denominacion": "Pizza Muzarella",
+      "precioVenta": 130,
+      "imagenes": [
+        {
+          "id": 5,
+          "url": "https://storage.googleapis.com/fitia-api-bucket/media/images/recipe_images/1002846.jpg"
+        }
+      ],
+      "unidadMedida": {
+        "id": 4,
+        "denominacion": "Porciones"
+      },
+      "categoria": {
+        "id": 4,
+        "denominacion": "Pizzas",
+        "esInsumo": false
+      },
+      "descripcion": "Una pizza clasica",
+      "tiempoEstimadoMinutos": 15,
+      "preparacion": "Esto se prepara asi",
+      "stock": 4,
+      "precioCosto": 87.2,
+      "articuloManufacturadoDetalles": [
+        {
+          "id": 1,
+          "cantidad": 1,
+          "articuloInsumo": {
+            "id": 2,
+            "denominacion": "Harina",
+            "precioVenta": 60.5,
+            "imagenes": [
+              {
+                "id": 2,
+                "url": "https://mandolina.co/wp-content/uploads/2023/03/648366622-1024x683.jpg"
+              }
+            ],
+            "unidadMedida": {
+              "id": 2,
+              "denominacion": "Gramos"
+            },
+            "categoria": {
+              "id": 6,
+              "denominacion": "Insumos",
+              "esInsumo": false
+            },
+            "precioCompra": 40,
+            "stockActual": 4,
+            "stockMaximo": 40,
+            "esParaElaborar": true
+          }
+        },
+        {
+          "id": 2,
+          "cantidad": 2,
+          "articuloInsumo": {
+            "id": 4,
+            "denominacion": "Queso",
+            "precioVenta": 66.6,
+            "imagenes": [
+              {
+                "id": 4,
+                "url": "https://superdepaso.com.ar/wp-content/uploads/2021/06/SANTAROSA-PATEGRAS-04.jpg"
+              }
+            ],
+            "unidadMedida": {
+              "id": 2,
+              "denominacion": "Gramos"
+            },
+            "categoria": {
+              "id": 6,
+              "denominacion": "Insumos",
+              "esInsumo": false
+            },
+            "precioCompra": 23.6,
+            "stockActual": 20,
+            "stockMaximo": 50,
+            "esParaElaborar": true
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "denominacion": "Pizza Napolitana",
+      "precioVenta": 150,
+      "imagenes": [
+        {
+          "id": 6,
+          "url": "https://assets.elgourmet.com/wp-content/uploads/2023/03/8metlvp345_portada-pizza-1024x686.jpg.webp"
+        }
+      ],
+      "unidadMedida": {
+        "id": 4,
+        "denominacion": "Porciones"
+      },
+      "categoria": {
+        "id": 4,
+        "denominacion": "Pizzas",
+        "esInsumo": false
+      },
+      "descripcion": "Una pizza clasica con tomate",
+      "tiempoEstimadoMinutos": 15,
+      "preparacion": "Esto se prepara asi",
+      "stock": 1,
+      "precioCosto": 190.8,
+      "articuloManufacturadoDetalles": [
+        {
+          "id": 5,
+          "cantidad": 2,
+          "articuloInsumo": {
+            "id": 3,
+            "denominacion": "Tomate",
+            "precioVenta": 66.6,
+            "imagenes": [
+              {
+                "id": 3,
+                "url": "https://thefoodtech.com/wp-content/uploads/2020/06/Componentes-de-calidad-en-el-tomate-828x548.jpg"
+              }
+            ],
+            "unidadMedida": {
+              "id": 3,
+              "denominacion": "Cantidad"
+            },
+            "categoria": {
+              "id": 6,
+              "denominacion": "Insumos",
+              "esInsumo": false
+            },
+            "precioCompra": 23.6,
+            "stockActual": 20,
+            "stockMaximo": 50,
+            "esParaElaborar": true
+          }
+        },
+        {
+          "id": 4,
+          "cantidad": 1,
+          "articuloInsumo": {
+            "id": 4,
+            "denominacion": "Queso",
+            "precioVenta": 66.6,
+            "imagenes": [
+              {
+                "id": 4,
+                "url": "https://superdepaso.com.ar/wp-content/uploads/2021/06/SANTAROSA-PATEGRAS-04.jpg"
+              }
+            ],
+            "unidadMedida": {
+              "id": 2,
+              "denominacion": "Gramos"
+            },
+            "categoria": {
+              "id": 6,
+              "denominacion": "Insumos",
+              "esInsumo": false
+            },
+            "precioCompra": 23.6,
+            "stockActual": 20,
+            "stockMaximo": 50,
+            "esParaElaborar": true
+          }
+        },
+        {
+          "id": 3,
+          "cantidad": 3,
+          "articuloInsumo": {
+            "id": 2,
+            "denominacion": "Harina",
+            "precioVenta": 60.5,
+            "imagenes": [
+              {
+                "id": 2,
+                "url": "https://mandolina.co/wp-content/uploads/2023/03/648366622-1024x683.jpg"
+              }
+            ],
+            "unidadMedida": {
+              "id": 2,
+              "denominacion": "Gramos"
+            },
+            "categoria": {
+              "id": 6,
+              "denominacion": "Insumos",
+              "esInsumo": false
+            },
+            "precioCompra": 40,
+            "stockActual": 4,
+            "stockMaximo": 40,
+            "esParaElaborar": true
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "denominacion": "papitas",
+      "precioVenta": 130,
+      "imagenes": [],
+      "unidadMedida": {
+        "id": 4,
+        "denominacion": "Porciones"
+      },
+      "categoria": {
+        "id": 7,
+        "denominacion": "Comida",
+        "esInsumo": false
+      },
+      "descripcion": "papafritas",
+      "tiempoEstimadoMinutos": 15,
+      "preparacion": "asdasdsas",
+      "stock": 20,
+      "precioCosto": 20,
+      "articuloManufacturadoDetalles": [
+        {
+          "id": 6,
+          "cantidad": 1,
+          "articuloInsumo": {
+            "id": 7,
+            "denominacion": "papa",
+            "precioVenta": 20,
+            "imagenes": [],
+            "unidadMedida": {
+              "id": 3,
+              "denominacion": "Cantidad"
+            },
+            "categoria": {
+              "id": 6,
+              "denominacion": "Insumos",
+              "esInsumo": false
+            },
+            "precioCompra": 20,
+            "stockActual": 20,
+            "stockMaximo": 200,
+            "esParaElaborar": true
+          }
+        }
+      ],
+      "stockStr": "20",
+      "tiempoEstimadoMinutosStr": "15",
+      "precioCostoStr": "20",
+      "precioVentaStr": "130"
+    }
+  ],
+  "localidades": [
+    {
+      "id": 1,
+      "nombre": "Lujan de Cuyo",
+      "provincia": {
+        "id": 1,
+        "nombre": "Mendoza",
+        "pais": {
+          "id": 1,
+          "nombre": "Argentina"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Godoy Cruz",
+      "provincia": {
+        "id": 1,
+        "nombre": "Mendoza",
+        "pais": {
+          "id": 1,
+          "nombre": "Argentina"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Achiras",
+      "provincia": {
+        "id": 2,
+        "nombre": "Cordoba",
+        "pais": {
+          "id": 1,
+          "nombre": "Argentina"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Agua de Oro",
+      "provincia": {
+        "id": 2,
+        "nombre": "Cordoba",
+        "pais": {
+          "id": 1,
+          "nombre": "Argentina"
+        }
+      }
+    }
+  ],
+  "insumos": [
+    {
+      "id": 1,
+      "denominacion": "Coca cola",
+      "precioVenta": 70,
+      "imagenes": [
+        {
+          "id": 1,
+          "url": "https://m.media-amazon.com/images/I/51v8nyxSOYL._SL1500_.jpg"
+        }
+      ],
+      "unidadMedida": {
+        "id": 1,
+        "denominacion": "Litros"
+      },
+      "categoria": {
+        "id": 2,
+        "denominacion": "Gaseosas",
+        "esInsumo": false
+      },
+      "precioCompra": 50,
+      "stockActual": 5,
+      "stockMaximo": 50,
+      "esParaElaborar": false
+    },
+    {
+      "id": 2,
+      "denominacion": "Harina 0000",
+      "precioVenta": 60.5,
+      "imagenes": [
+        {
+          "id": 2,
+          "url": "https://mandolina.co/wp-content/uploads/2023/03/648366622-1024x683.jpg"
+        }
+      ],
+      "unidadMedida": {
+        "id": 2,
+        "denominacion": "Gramos"
+      },
+      "categoria": {
+        "id": 6,
+        "denominacion": "Insumos",
+        "esInsumo": false
+      },
+      "precioCompra": 40,
+      "stockActual": 4,
+      "stockMaximo": 40,
+      "esParaElaborar": true,
+      "stockActualStr": "4",
+      "stockMaximoStr": "40",
+      "precioCompraStr": "40",
+      "precioVentaStr": "60.5"
+    },
+    {
+      "id": 3,
+      "denominacion": "Tomate",
+      "precioVenta": 66.6,
+      "imagenes": [
+        {
+          "id": 3,
+          "url": "https://thefoodtech.com/wp-content/uploads/2020/06/Componentes-de-calidad-en-el-tomate-828x548.jpg"
+        }
+      ],
+      "unidadMedida": {
+        "id": 3,
+        "denominacion": "Cantidad"
+      },
+      "categoria": {
+        "id": 6,
+        "denominacion": "Insumos",
+        "esInsumo": false
+      },
+      "precioCompra": 23.6,
+      "stockActual": 20,
+      "stockMaximo": 50,
+      "esParaElaborar": true
+    },
+    {
+      "id": 4,
+      "denominacion": "Queso",
+      "precioVenta": 66.6,
+      "imagenes": [
+        {
+          "id": 4,
+          "url": "https://superdepaso.com.ar/wp-content/uploads/2021/06/SANTAROSA-PATEGRAS-04.jpg"
+        }
+      ],
+      "unidadMedida": {
+        "id": 2,
+        "denominacion": "Gramos"
+      },
+      "categoria": {
+        "id": 6,
+        "denominacion": "Insumos",
+        "esInsumo": false
+      },
+      "precioCompra": 23.6,
+      "stockActual": 20,
+      "stockMaximo": 50,
+      "esParaElaborar": true
+    }
+  ],
+  "facturas": [
+    {
+      "id": 1,
+      "fechaFacturacion": "2024-02-13",
+      "mpPaymentId": 1,
+      "mpMerchantOrderId": 1,
+      "mpPreferenceId": "0001",
+      "mpPaymentType": "mercado pago",
+      "formaPago": "MercadoPago",
+      "totalVenta": 2500,
+      "pedido": {
+        "id": 1,
+        "horaEstimadaFinalizacion": "12:30:00",
+        "total": 200,
+        "totalCosto": 180,
+        "estado": "Entregado",
+        "tipoEnvio": "Delivery",
+        "formaPago": "MercadoPago",
+        "fechaPedido": "2024-04-18",
+        "domicilio": {
+          "id": 4,
+          "calle": "Sarmiento",
+          "numero": 123,
+          "cp": 5507,
+          "localidad": {
+            "id": 1,
+            "nombre": "Lujan de Cuyo",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        },
+        "sucursal": {
+          "id": 2,
+          "nombre": "En chacras",
+          "horarioApertura": "17:00:00",
+          "horarioCierre": "23:00:00",
+          "casaMatriz": null,
+          "domicilio": {
+            "id": 2,
+            "calle": "Viamonte",
+            "numero": 500,
+            "cp": 5509,
+            "localidad": {
+              "id": 1,
+              "nombre": "Lujan de Cuyo",
+              "provincia": {
+                "id": 1,
+                "nombre": "Mendoza",
+                "pais": {
+                  "id": 1,
+                  "nombre": "Argentina"
+                }
+              }
+            }
+          },
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        },
+        "cliente": {
+          "id": 1,
+          "rol": "Cliente",
+          "nombre": "Alejandro",
+          "apellido": "Lencinas",
+          "telefono": "2634666666",
+          "email": "alex@gmail.com",
+          "fechaNacimiento": "1990-12-15"
+        },
+        "empleado": {
+          "id": 2,
+          "domicilio": {
+            "id": 6,
+            "calle": "Sarmiento",
+            "numero": 123,
+            "cp": 5507,
+            "localidad": {
+              "id": 1,
+              "nombre": "Lujan de Cuyo",
+              "provincia": {
+                "id": 1,
+                "nombre": "Mendoza",
+                "pais": {
+                  "id": 1,
+                  "nombre": "Argentina"
+                }
+              }
+            }
+          },
+          "nombre": "Juancito",
+          "apellido": "Cajeres",
+          "telefono": "263443626",
+          "email": "juancitocajeres@gmail.com",
+          "fechaNacimiento": "1991-08-09",
+          "sucursal": null
+        },
+        "detallePedidos": [
+          {
+            "id": 2,
+            "cantidad": 1,
+            "subTotal": 70,
+            "articulo": {
+              "id": 1,
+              "denominacion": "Coca cola",
+              "precioVenta": 70,
+              "precioCompra": 50,
+              "stockActual": 5,
+              "stockMaximo": 50,
+              "esParaElaborar": false
+            }
+          },
+          {
+            "id": 1,
+            "cantidad": 1,
+            "subTotal": 130,
+            "articulo": {
+              "id": 5,
+              "denominacion": "Pizza Muzarella",
+              "precioVenta": 130,
+              "descripcion": "Una pizza clasica",
+              "tiempoEstimadoMinutos": 15,
+              "preparacion": "Esto se prepara asi",
+              "stock": null,
+              "precioCosto": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "empresas": [
+    {
+      "id": 1,
+      "nombre": "Lo de Brown",
+      "razonSocial": "Venta de Alimentos",
+      "cuil": 30503167,
+      "sucursales": [
+        {
+          "id": 2,
+          "nombre": "En chacras",
+          "horarioApertura": "17:00:00",
+          "horarioCierre": "23:00:00",
+          "casaMatriz": null,
+          "domicilio": {
+            "id": 2,
+            "calle": "Viamonte",
+            "numero": 500,
+            "cp": 5509,
+            "localidad": {
+              "id": 1,
+              "nombre": "Lujan de Cuyo",
+              "provincia": {
+                "id": 1,
+                "nombre": "Mendoza",
+                "pais": {
+                  "id": 1,
+                  "nombre": "Argentina"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1,
+          "nombre": "En godoy cruz",
+          "horarioApertura": "16:00:00",
+          "horarioCierre": "23:30:00",
+          "casaMatriz": null,
+          "domicilio": {
+            "id": 1,
+            "calle": "San Martin",
+            "numero": 789,
+            "cp": 5511,
+            "localidad": {
+              "id": 2,
+              "nombre": "Godoy Cruz",
+              "provincia": {
+                "id": 1,
+                "nombre": "Mendoza",
+                "pais": {
+                  "id": 1,
+                  "nombre": "Argentina"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "empleados": [
+    {
+      "id": 1,
+      "rol": "Administrador",
+      "domicilio": {
+        "id": 5,
+        "calle": "Sarmiento",
+        "numero": 123,
+        "cp": 5507,
+        "localidad": {
+          "id": 1,
+          "nombre": "Lujan de Cuyo",
+          "provincia": {
+            "id": 1,
+            "nombre": "Mendoza",
+            "pais": {
+              "id": 1,
+              "nombre": "Argentina"
+            }
+          }
+        }
+      },
+      "nombre": "Juancito",
+      "apellido": "Admincias",
+      "telefono": "2634666266",
+      "email": "juancitoadmin@gmail.com",
+      "fechaNacimiento": "1990-11-15",
+      "imagen": {
+        "id": 1,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+      },
+      "sucursal": null
+    },
+    {
+      "id": 2,
+      "rol": "Cajero",
+      "domicilio": {
+        "id": 6,
+        "calle": "Sarmiento",
+        "numero": 123,
+        "cp": 5507,
+        "localidad": {
+          "id": 1,
+          "nombre": "Lujan de Cuyo",
+          "provincia": {
+            "id": 1,
+            "nombre": "Mendoza",
+            "pais": {
+              "id": 1,
+              "nombre": "Argentina"
+            }
+          }
+        }
+      },
+      "nombre": "Juancito",
+      "apellido": "Cajeres",
+      "telefono": "263443626",
+      "email": "juancitocajeres@gmail.com",
+      "fechaNacimiento": "1991-08-09",
+      "imagen": {
+        "id": 2,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+      },
+      "sucursal": null
+    },
+    {
+      "id": 3,
+      "rol": "Cocinero",
+      "domicilio": {
+        "id": 7,
+        "calle": "Sarmiento",
+        "numero": 123,
+        "cp": 5507,
+        "localidad": {
+          "id": 1,
+          "nombre": "Lujan de Cuyo",
+          "provincia": {
+            "id": 1,
+            "nombre": "Mendoza",
+            "pais": {
+              "id": 1,
+              "nombre": "Argentina"
+            }
+          }
+        }
+      },
+      "nombre": "Pepito",
+      "apellido": "Cocinas",
+      "telefono": "2634666166",
+      "email": "pepitococinas@gmail.com",
+      "fechaNacimiento": "1992-06-12",
+      "imagen": {
+        "id": 3,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+      },
+      "sucursal": null
+    },
+    {
+      "id": 4,
+      "rol": "Delivery",
+      "domicilio": {
+        "id": 8,
+        "calle": "Sarmiento",
+        "numero": 123,
+        "cp": 5507,
+        "localidad": {
+          "id": 1,
+          "nombre": "Lujan de Cuyo",
+          "provincia": {
+            "id": 1,
+            "nombre": "Mendoza",
+            "pais": {
+              "id": 1,
+              "nombre": "Argentina"
+            }
+          }
+        }
+      },
+      "nombre": "Jorge",
+      "apellido": "Deliveres",
+      "telefono": "2634636656",
+      "email": "jorgedeliveres@gmail.com",
+      "fechaNacimiento": "1993-04-11",
+      "imagen": {
+        "id": 4,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+      },
+      "sucursal": null
+    }
+  ],
+  "domicilios": [
+    {
+      "id": 1,
+      "calle": "San Martin",
+      "numero": 789,
+      "cp": 5511,
+      "localidad": {
+        "id": 2,
+        "nombre": "Godoy Cruz",
+        "provincia": {
+          "id": 1,
+          "nombre": "Mendoza",
+          "pais": {
+            "id": 1,
+            "nombre": "Argentina"
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "calle": "Viamonte",
+      "numero": 500,
+      "cp": 5509,
+      "localidad": {
+        "id": 1,
+        "nombre": "Lujan de Cuyo",
+        "provincia": {
+          "id": 1,
+          "nombre": "Mendoza",
+          "pais": {
+            "id": 1,
+            "nombre": "Argentina"
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "calle": "San martin",
+      "numero": 412,
+      "cp": 5501,
+      "localidad": {
+        "id": 2,
+        "nombre": "Godoy Cruz",
+        "provincia": {
+          "id": 1,
+          "nombre": "Mendoza",
+          "pais": {
+            "id": 1,
+            "nombre": "Argentina"
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "calle": "Sarmiento",
+      "numero": 123,
+      "cp": 5507,
+      "localidad": {
+        "id": 1,
+        "nombre": "Lujan de Cuyo",
+        "provincia": {
+          "id": 1,
+          "nombre": "Mendoza",
+          "pais": {
+            "id": 1,
+            "nombre": "Argentina"
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "calle": "Sarmiento",
+      "numero": 123,
+      "cp": 5507,
+      "localidad": {
+        "id": 1,
+        "nombre": "Lujan de Cuyo",
+        "provincia": {
+          "id": 1,
+          "nombre": "Mendoza",
+          "pais": {
+            "id": 1,
+            "nombre": "Argentina"
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "calle": "Sarmiento",
+      "numero": 123,
+      "cp": 5507,
+      "localidad": {
+        "id": 1,
+        "nombre": "Lujan de Cuyo",
+        "provincia": {
+          "id": 1,
+          "nombre": "Mendoza",
+          "pais": {
+            "id": 1,
+            "nombre": "Argentina"
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "calle": "Sarmiento",
+      "numero": 123,
+      "cp": 5507,
+      "localidad": {
+        "id": 1,
+        "nombre": "Lujan de Cuyo",
+        "provincia": {
+          "id": 1,
+          "nombre": "Mendoza",
+          "pais": {
+            "id": 1,
+            "nombre": "Argentina"
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "calle": "Sarmiento",
+      "numero": 123,
+      "cp": 5507,
+      "localidad": {
+        "id": 1,
+        "nombre": "Lujan de Cuyo",
+        "provincia": {
+          "id": 1,
+          "nombre": "Mendoza",
+          "pais": {
+            "id": 1,
+            "nombre": "Argentina"
+          }
+        }
+      }
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "rol": "Cliente",
+      "nombre": "Alejandro",
+      "apellido": "Lencinas",
+      "telefono": "2634666666",
+      "email": "alex@gmail.com",
+      "fechaNacimiento": "1990-12-15",
+      "pedidos": [
+        {
+          "id": 1,
+          "horaEstimadaFinalizacion": "12:30:00",
+          "total": 200,
+          "totalCosto": 180,
+          "estado": "Entregado",
+          "tipoEnvio": "Delivery",
+          "formaPago": "MercadoPago",
+          "fechaPedido": "2024-04-18",
+          "domicilio": {
+            "id": 4,
+            "calle": "Sarmiento",
+            "numero": 123,
+            "cp": 5507,
+            "localidad": {
+              "id": 1,
+              "nombre": "Lujan de Cuyo",
+              "provincia": {
+                "id": 1,
+                "nombre": "Mendoza",
+                "pais": {
+                  "id": 1,
+                  "nombre": "Argentina"
+                }
+              }
+            }
+          },
+          "sucursal": {
+            "id": 2,
+            "nombre": "En chacras",
+            "horarioApertura": "17:00:00",
+            "horarioCierre": "23:00:00",
+            "casaMatriz": null,
+            "domicilio": {
+              "id": 2,
+              "calle": "Viamonte",
+              "numero": 500,
+              "cp": 5509,
+              "localidad": {
+                "id": 1,
+                "nombre": "Lujan de Cuyo",
+                "provincia": {
+                  "id": 1,
+                  "nombre": "Mendoza",
+                  "pais": {
+                    "id": 1,
+                    "nombre": "Argentina"
+                  }
+                }
+              }
+            },
+            "empresa": {
+              "id": 1,
+              "nombre": "Lo de Brown",
+              "razonSocial": "Venta de Alimentos",
+              "cuil": 30503167
+            }
+          },
+          "empleado": {
+            "id": 2,
+            "domicilio": {
+              "id": 6,
+              "calle": "Sarmiento",
+              "numero": 123,
+              "cp": 5507,
+              "localidad": {
+                "id": 1,
+                "nombre": "Lujan de Cuyo",
+                "provincia": {
+                  "id": 1,
+                  "nombre": "Mendoza",
+                  "pais": {
+                    "id": 1,
+                    "nombre": "Argentina"
+                  }
+                }
+              }
+            },
+            "nombre": "Juancito",
+            "apellido": "Cajeres",
+            "telefono": "263443626",
+            "email": "juancitocajeres@gmail.com",
+            "fechaNacimiento": "1991-08-09",
+            "sucursal": null
+          },
+          "detallePedidos": [
+            {
+              "id": 1,
+              "cantidad": 1,
+              "subTotal": 130,
+              "articulo": {
+                "id": 5,
+                "denominacion": "Pizza Muzarella",
+                "precioVenta": 130,
+                "descripcion": "Una pizza clasica",
+                "tiempoEstimadoMinutos": 15,
+                "preparacion": "Esto se prepara asi",
+                "stock": null,
+                "precioCosto": null
+              }
+            },
+            {
+              "id": 2,
+              "cantidad": 1,
+              "subTotal": 70,
+              "articulo": {
+                "id": 1,
+                "denominacion": "Coca cola",
+                "precioVenta": 70,
+                "precioCompra": 50,
+                "stockActual": 5,
+                "stockMaximo": 50,
+                "esParaElaborar": false
+              }
+            }
+          ]
+        }
+      ],
+      "domicilios": [
+        {
+          "id": 3,
+          "calle": "San martin",
+          "numero": 412,
+          "cp": 5501,
+          "localidad": {
+            "id": 2,
+            "nombre": "Godoy Cruz",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        },
+        {
+          "id": 4,
+          "calle": "Sarmiento",
+          "numero": 123,
+          "cp": 5507,
+          "localidad": {
+            "id": 1,
+            "nombre": "Lujan de Cuyo",
+            "provincia": {
+              "id": 1,
+              "nombre": "Mendoza",
+              "pais": {
+                "id": 1,
+                "nombre": "Argentina"
+              }
+            }
+          }
+        }
+      ],
+      "imagen": {
+        "id": 1,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa2xSPPay4GD7E3cthBMCcvPMADEjFufUWQ&s"
+      }
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "denominacion": "Tragos",
+      "esInsumo": false,
+      "subCategorias": [],
+      "sucursales": [
+        {
+          "id": 2,
+          "horarioApertura": "17:00:00",
+          "horarioCierre": "23:00:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        },
+        {
+          "id": 1,
+          "horarioApertura": "16:00:00",
+          "horarioCierre": "23:30:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "denominacion": "Gaseosas",
+      "esInsumo": false,
+      "subCategorias": [
+        {
+          "id": 3,
+          "denominacion": "Fanta",
+          "esInsumo": false,
+          "subCategorias": [],
+          "sucursales": []
+        }
+      ],
+      "sucursales": [
+        {
+          "id": 2,
+          "horarioApertura": "17:00:00",
+          "horarioCierre": "23:00:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        },
+        {
+          "id": 1,
+          "horarioApertura": "16:00:00",
+          "horarioCierre": "23:30:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "denominacion": "Fanta",
+      "esInsumo": false,
+      "subCategorias": [],
+      "sucursales": []
+    },
+    {
+      "id": 4,
+      "denominacion": "Pizzas",
+      "esInsumo": false,
+      "subCategorias": [],
+      "sucursales": [
+        {
+          "id": 2,
+          "horarioApertura": "17:00:00",
+          "horarioCierre": "23:00:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        },
+        {
+          "id": 1,
+          "horarioApertura": "16:00:00",
+          "horarioCierre": "23:30:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "denominacion": "Bebidas",
+      "esInsumo": false,
+      "subCategorias": [
+        {
+          "id": 1,
+          "denominacion": "Tragos",
+          "esInsumo": false,
+          "subCategorias": [],
+          "sucursales": [
+            {
+              "id": 2,
+              "horarioApertura": "17:00:00",
+              "horarioCierre": "23:00:00",
+              "casaMatriz": null,
+              "empresa": {
+                "id": 1,
+                "nombre": "Lo de Brown",
+                "razonSocial": "Venta de Alimentos",
+                "cuil": 30503167
+              }
+            },
+            {
+              "id": 1,
+              "horarioApertura": "16:00:00",
+              "horarioCierre": "23:30:00",
+              "casaMatriz": null,
+              "empresa": {
+                "id": 1,
+                "nombre": "Lo de Brown",
+                "razonSocial": "Venta de Alimentos",
+                "cuil": 30503167
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "denominacion": "Gaseosas",
+          "esInsumo": false,
+          "subCategorias": [
+            {
+              "id": 3,
+              "denominacion": "Fanta",
+              "esInsumo": false,
+              "subCategorias": [],
+              "sucursales": []
+            }
+          ],
+          "sucursales": [
+            {
+              "id": 2,
+              "horarioApertura": "17:00:00",
+              "horarioCierre": "23:00:00",
+              "casaMatriz": null,
+              "empresa": {
+                "id": 1,
+                "nombre": "Lo de Brown",
+                "razonSocial": "Venta de Alimentos",
+                "cuil": 30503167
+              }
+            },
+            {
+              "id": 1,
+              "horarioApertura": "16:00:00",
+              "horarioCierre": "23:30:00",
+              "casaMatriz": null,
+              "empresa": {
+                "id": 1,
+                "nombre": "Lo de Brown",
+                "razonSocial": "Venta de Alimentos",
+                "cuil": 30503167
+              }
+            }
+          ]
+        }
+      ],
+      "sucursales": [
+        {
+          "id": 2,
+          "horarioApertura": "17:00:00",
+          "horarioCierre": "23:00:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        },
+        {
+          "id": 1,
+          "horarioApertura": "16:00:00",
+          "horarioCierre": "23:30:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "denominacion": "Insumos",
+      "esInsumo": false,
+      "subCategorias": [],
+      "sucursales": [
+        {
+          "id": 2,
+          "horarioApertura": "17:00:00",
+          "horarioCierre": "23:00:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        },
+        {
+          "id": 1,
+          "horarioApertura": "16:00:00",
+          "horarioCierre": "23:30:00",
+          "casaMatriz": null,
+          "empresa": {
+            "id": 1,
+            "nombre": "Lo de Brown",
+            "razonSocial": "Venta de Alimentos",
+            "cuil": 30503167
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "denominacion": "Comida",
+      "esInsumo": false,
+      "subCategorias": [],
+      "sucursales": []
+    }
+  ]
+}
