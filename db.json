@@ -1161,6 +1161,12 @@
       "nombre": "Lo de Brown",
       "razonSocial": "Venta de Alimentos",
       "cuil": 30503167,
+      "imagen": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/fotos-premium/edificio-nombre-empresa-frente_878402-3329.jpg"
+        }
+      ]
       "sucursales": [
         {
           "id": 2,
